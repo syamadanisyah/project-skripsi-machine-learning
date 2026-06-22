@@ -1,8 +1,12 @@
-# Virtual environment (folder besar, tidak perlu di GitHub)
+# Virtual environment packages (folder besar, tidak perlu)
 Lib/
 Scripts/
 Include/
 pyvenv.cfg
+
+# JupyterLab config dan share (tidak perlu)
+etc/
+share/
 
 # Python cache
 __pycache__/
@@ -19,6 +23,12 @@ output/y_train.pkl
 output/y_test.pkl
 output/dataset_dengan_prediksi.csv
 output/feature_importance_svm.csv
+
+# File duplikat/copy tidak perlu
+*_copy.py
+
+# Jupyter notebook (hasil eksplorasi, tidak perlu di repo)
+*.ipynb
 
 # Gambar hasil evaluasi (bisa di-generate ulang)
 images/
